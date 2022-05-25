@@ -1,4 +1,5 @@
 import path from 'path';
+import react from '@vitejs/plugin-react';
 
 import { UserConfigExport } from 'vite';
 import dts from 'vite-dts'
@@ -24,7 +25,8 @@ export function getBaseViteConfig(
       }
     },
     plugins: [
-      dts()
+      dts(),
+      react()
     ],
     ...override
   }

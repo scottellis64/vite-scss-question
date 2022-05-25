@@ -1,0 +1,44 @@
+@import './_palette.scss';
+@import './_colors.scss';
+@import './_custom-bootstrap.scss';
+
+:export {
+    navbarBg: $navbar-bg;
+    navbarBgHover: $navbar-bg-hover;
+
+    lightGrey1: $light-grey-1;
+    lightGrey2: $light-grey-2;
+    notSoWhite: $not-so-white;
+
+    darkSkyBlue: $dark-sky-blue;
+    blue1: $blue-1;
+    blue2: $blue-2;
+
+    battleshipGrey: $battleship-grey;
+    coolGrey: $cool-grey;
+    darkGrey: $dark-grey;
+    lightGrey: $light-grey;
+
+    blueIcon1: $blue-icon-1;
+    coralPink: $coral-pink;
+}
+
+.battleshipGrey {
+    color: $battleship-grey;
+}
+
+.coolGrey {
+    color: $cool-grey;
+}
+
+.lightGrey {
+    color: $light-grey;
+}
+
+.coralPink {
+    color: $coral-pink;
+}
+
+.darkSkyBlue {
+    color: $dark-sky-blue;
+}

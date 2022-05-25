@@ -9,6 +9,7 @@ packages/*/package-lock.json
 lerna-debug.log
 .DS_STORE
 .idea
+.creds
 
 .npmrc
 .env

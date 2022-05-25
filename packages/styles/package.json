@@ -1,0 +1,19 @@
+{
+  "name": "@vsq/styles",
+  "version": "1.0.0",
+  "author": "sellis",
+  "description": "Common styles",
+  "main": "dist/styles.es.js",
+  "module": "dist/styles.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/styles.d.ts",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  },
+  "devDependencies": {}
+}
