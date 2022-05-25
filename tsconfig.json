@@ -17,7 +17,14 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@vsq/*": [
+        "packages/*/src"
+      ]
+    }
   },
   "include": ["./packages", "*.d.ts"],
   "exclude": ["node_modules", "dist"]

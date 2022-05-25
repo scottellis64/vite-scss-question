@@ -13,5 +13,6 @@
     "lint": "eslint ./src",
     "tsc": "tsc"
   },
-  "types": "./src/sample.d.ts"
+  "types": "./src/sample.d.ts",
+  "devDependencies": {}
 }
