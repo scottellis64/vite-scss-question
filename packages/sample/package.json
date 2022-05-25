@@ -14,5 +14,7 @@
     "tsc": "tsc"
   },
   "types": "./src/sample.d.ts",
-  "devDependencies": {}
+  "dependencies": {
+    "@vsq/styles": "*"
+  }
 }

@@ -2,6 +2,6 @@ import './styles.scss';
 
 export const Styles = () => {
     return (
-        <h1>I am styled</h1>
+        <h1 className="battleshipGrey">I am Battleship Grey</h1>
     );
 }

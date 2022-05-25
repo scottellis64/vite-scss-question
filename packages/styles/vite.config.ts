@@ -3,16 +3,18 @@ import path from 'path';
 
 import { getBaseViteConfig } from '../../viteBaseConfig'
 
+const pathSrc = path.resolve(__dirname, "src");
+
 const defaultConfig = defineConfig(getBaseViteConfig(__dirname));
 
 const CssConfig = {
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: `${pathSrc}/index.ts`,
       name: "MyCssLib"
     },
-    ...defaultConfig
-  }  
+  }, 
+  ...defaultConfig
 }
 
 export default CssConfig;

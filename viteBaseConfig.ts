@@ -26,14 +26,7 @@ export function getBaseViteConfig(
     },
     plugins: [
       dts(),
-      react({
-        babel: {
-          plugins: [
-            "@babel/plugin-proposal-optional-chaining",
-            "@babel/plugin-proposal-nullish-coalescing-operator",
-          ],
-        },
-      })
+      react()
     ],
     ...override
   }
